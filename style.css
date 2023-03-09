@@ -9,9 +9,11 @@ body {
     margin: 0;
     padding: 0;
 }
-.dark-background{
+
+.dark-background {
     background-color: rgb(25, 33, 41);
 }
+
 h1,
 h2,
 h3,
@@ -22,25 +24,27 @@ h6 {
 }
 
 h1 {
-    font-size: 9em;
+    font-size: 8em;
     text-align: center;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
     text-transform: uppercase;
 }
 
 h3 {
-    font-size: 4.2em;
+    font-size: 3.2em;
     line-height: 1em;
+    margin-bottom: 15px;
     text-align: center;
+
 }
 
 h4 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     letter-spacing: 0.4px;
     line-height: 1em;
 }
@@ -50,38 +54,61 @@ h5 {
     line-height: 1em;
 }
 
-.nav-bar{
+.nav-bar {
     background-color: rgb(25, 33, 41);
+    padding-bottom: 14px;
+    padding-top: 14px;
 }
+
+.nav-bar-ul {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.nav-bar-ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 .nav-bar a {
     color: white;
     font-size: 2em;
     text-decoration: none;
 }
-.header{
+
+.header {
     background-image: url(img/ironhack-skydive-background.jpeg);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
+    padding-top: 50px;
 }
+
 .header h2 {
     color: white;
     text-shadow: #020819 8px -20px 9px;
 }
-.header .quote{
-    font-size: 2.5em;
+
+.header .quote {
+    font-size: 2em;
 }
-#general-information{
+
+#general-information {
     background-color: rgb(25, 33, 41);
     color: white;
 }
-.text{
+
+.text {
     font-size: 2em;
     font-weight: 100;
+    margin: 20px 0;
     text-align: center;
 }
-#general-information .link-btn{
+
+#general-information .link-btn {
     background-color: rgb(67, 163, 230);
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
@@ -90,46 +117,91 @@ h5 {
     text-align: center;
     text-decoration: none;
 }
-#structure .service-box{
-    font-size: 1.7em;
-    text-align: center;
+.container{
+    margin:  0 auto;
+    padding: 75px 0;
+    width: 1200px;
 }
+#structure .service-box {
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0 #eee;
+    font-size: 1.7em;
+    margin: 50px 5% 0 5%;
+    padding: 20px;
+    text-align: center;
+    width: 40%;
+}
+
 #structure .service-box img {
     width: 125px;
+}
+#team{
+    margin: 0 auto;
+    padding: 75px 0;
 }
 #team .section-text {
     color: white;
     font-size: 1.9em;
     text-align: center;
 }
+#team p{
+    margin: 10px auto;
+    width: 60%;
 
+}
+#team hr {
+    margin: 20px auto 30px auto;
+    width: 40%;
+}
 #team .member-name {
     color: white;
     font-size: 1.5em;
     font-weight: 700;
 }
-#team img{
+
+#team img {
     height: 180px;
     width: 250px;
 }
+#schedule .schedule-table{
+    font-size: 1.5em;
+    margin: 0 auto 40px auto;
+}
+.schedule-table th,
+td {
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
+  text-align: center;
+}
 
-.footer{
+.footer {
     color: white;
     font-size: 1.9em;
+    margin-bottom: 25px;
+    padding: 40px 100px;
     text-align: center;
+}
+.footer h5 {
+    margin: 0;
 }
 .address {
     font-size: 0.8em;
     font-weight: normal;
+    margin-bottom: 30px;
 }
+
 .footer ul {
     margin: 0;
     padding: 0;
 }
-.footer ul li{
+
+.footer ul li {
     list-style-type: none;
 }
+
 .footer a {
     color: rgb(67, 163, 230);
+    padding: 0;
     text-decoration: none;
 }
