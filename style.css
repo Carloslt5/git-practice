@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-    font-size: 3.2em;
+    font-size: 2.5em;
     line-height: 1em;
     margin-bottom: 15px;
     text-align: center;
@@ -61,6 +61,8 @@ h5 {
 }
 
 .nav-bar-ul {
+    display: flex;
+    justify-content: space-evenly;
     margin: 0 auto;
     width: 1200px;
 }
@@ -85,6 +87,7 @@ h5 {
     background-size: cover;
     height: 650px;
     padding-top: 50px;
+    position: relative;
 }
 
 .header h2 {
@@ -93,12 +96,17 @@ h5 {
 }
 
 .header .quote {
+    bottom: 10px;
     font-size: 2em;
+    left: 10%;
+    position: absolute;
 }
 
 #general-information {
     background-color: rgb(25, 33, 41);
     color: white;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .text {
@@ -117,17 +125,28 @@ h5 {
     text-align: center;
     text-decoration: none;
 }
-.container{
+#general-information .container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin:  0 auto;
     padding: 75px 0;
     width: 1200px;
+    width: 370px;
 }
+#structure div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 #structure .service-box {
     border: 1px solid #eee;
     border-radius: 20px;
     box-shadow: 2px 2px 10px 0 #eee;
     font-size: 1.7em;
-    margin: 50px 5% 0 5%;
+    margin: 50px 2% 50px 2% ;
     padding: 20px;
     text-align: center;
     width: 40%;
@@ -139,11 +158,21 @@ h5 {
 #team{
     margin: 0 auto;
     padding: 75px 0;
+}#team > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+#team > div > article {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #team .section-text {
     color: white;
     font-size: 1.9em;
     text-align: center;
+    width: 100%;
 }
 #team p{
     margin: 10px auto;
@@ -176,8 +205,11 @@ td {
 }
 
 .footer {
+    align-items: center;
     color: white;
+    display: flex;
     font-size: 1.9em;
+    justify-content: space-evenly;
     margin-bottom: 25px;
     padding: 40px 100px;
     text-align: center;
@@ -204,4 +236,8 @@ td {
     color: rgb(67, 163, 230);
     padding: 0;
     text-decoration: none;
+}
+.map-frame{
+    height: 370px;
+    width: 60%;
 }
