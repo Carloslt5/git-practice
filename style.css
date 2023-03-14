@@ -53,10 +53,12 @@ h5 {
     font-size: 1.2em;
     line-height: 1em;
 }
-section{
+
+section {
     padding-bottom: 50px;
     padding-top: 50px;
 }
+
 .nav-bar {
     background-color: rgb(25, 33, 41);
     padding-bottom: 14px;
@@ -99,14 +101,16 @@ section{
 }
 
 .header .quote {
-    bottom: 50px;
+    bottom: 100px;
     font-size: 2em;
     left: 5%;
     position: absolute;
 }
+
 .header .quote p {
     margin: 0;
 }
+
 #general-information {
     background-color: rgb(25, 33, 41);
     color: white;
@@ -119,26 +123,32 @@ section{
     margin: 20px 0;
     text-align: center;
 }
+
 .text p {
     font-size: 1.9em;
 }
+
 #general-information .link-btn {
     background-color: rgb(67, 163, 230);
+    border-radius: 4px;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 2em;
     letter-spacing: 0.5px;
+    padding: 2px 10px;
     text-align: center;
     text-decoration: none;
 }
-#general-information .container{
+
+#general-information .container {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin:  0 auto;
+    margin: 0 auto;
     padding: 50px 0;
     width: 370px;
 }
+
 #structure div {
     display: flex;
     flex-direction: row;
@@ -150,7 +160,7 @@ section{
     border: 1px solid #eee;
     border-radius: 20px;
     box-shadow: 2px 2px 10px 0 #eee;
-    margin: 25px 2% 25px 2% ;
+    margin: 25px 2% 25px 2%;
     padding: 20px;
     text-align: center;
     width: 40%;
@@ -159,38 +169,46 @@ section{
 #structure .service-box p {
     font-size: 1.9em;
 }
+
 #structure .service-box img {
     width: 125px;
 }
-#team{
+
+#team {
     margin: 0 auto;
 }
-#team > div {
+
+#team>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-#team > div > article {
+
+#team>div>article {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 #team .section-text {
     color: white;
     font-size: 1.9em;
     text-align: center;
     width: 100%;
 }
-#team p{
+
+#team p {
     margin: 10px auto;
     width: 60%;
 
 }
+
 #team hr {
     margin: 20px auto 30px auto;
     width: 40%;
 }
+
 #team .member-name {
     color: white;
     font-size: 1.5em;
@@ -201,15 +219,44 @@ section{
     height: 180px;
     width: 250px;
 }
-#schedule .schedule-table{
+
+#schedule .schedule-table {
     font-size: 1.5em;
     margin: 0 auto 40px auto;
 }
+
 .schedule-table th,
 td {
-  border-bottom: 1px solid black;
-  padding: 5px 10px;
-  text-align: center;
+    border-bottom: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.slot-form-container {
+    font-size: 1.5em;
+    margin: 18px auto 0 auto;
+    text-align: center;
+    width: 40%;
+}
+
+.slot-form-container label {
+    line-height: 15px;
+    margin: 5px;
+}
+
+.slot-form-container input,
+select {
+    outline: none;
+    padding: 3px;
+    width: 100%;
+}
+
+.slot-form-container button {
+    background-color: white;
+    border: 1p solid black;
+    color: black;
+    margin-top: 15px;
+    padding: 9px;
 }
 
 .footer {
@@ -222,9 +269,11 @@ td {
     padding: 50px 100px;
     text-align: center;
 }
+
 .footer h5 {
     margin: 0;
 }
+
 .address {
     font-size: 0.8em;
     font-weight: normal;
@@ -245,7 +294,8 @@ td {
     padding: 0;
     text-decoration: none;
 }
-.map-frame{
+
+.map-frame {
     height: 370px;
     width: 60%;
 }
